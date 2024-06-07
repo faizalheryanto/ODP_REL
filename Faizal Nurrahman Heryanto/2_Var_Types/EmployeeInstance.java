@@ -1,6 +1,5 @@
-import java.io.*;
 
-public class Employee {
+public class EmployeeInstance {
 
    // this instance variable is visible for any child class.
    public String name;
@@ -9,7 +8,7 @@ public class Employee {
    private double salary;
 
    // The name variable is assigned in the constructor.
-   public Employee (String empName) {
+   public EmployeeInstance (String empName) {
       name = empName;
    }
 
@@ -25,7 +24,7 @@ public class Employee {
    }
 
    public static void main(String args[]) {
-      Employee empOne = new Employee("Ransika");
+      EmployeeInstance empOne = new EmployeeInstance("Ransika");
       empOne.setSalary(1000);
       empOne.printEmp();
    }
