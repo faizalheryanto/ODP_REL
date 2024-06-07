@@ -9,6 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="NabilaLeksanaPutri" target="21" />
       <module name="NLeksanaPutri" target="21" />
     </bytecodeTargetLevel>
   </component>
