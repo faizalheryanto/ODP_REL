@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ODP_REL.iml" filepath="$PROJECT_DIR$/ODP_REL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloJava.iml" filepath="$PROJECT_DIR$/HelloJava.iml" />
     </modules>
   </component>
 </project>
