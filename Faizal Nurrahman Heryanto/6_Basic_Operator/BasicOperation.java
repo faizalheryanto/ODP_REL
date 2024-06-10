@@ -4,7 +4,9 @@ public class BasicOperation {
     public static void main(String args[]) {
 
         //////Arithmetic Ops///////
+        System.out.println("//--Arithmetic Ops--//");
         //1. 
+        System.out.println("Example 1 : ");
         int a = 10;
         int b = 20;
         System.out.println("a + b = " + (a + b));
@@ -13,6 +15,7 @@ public class BasicOperation {
         System.out.println("b / a = " + (b / a));
 
         //2. 
+        System.out.println("Example 2 : ");
         a = 10;
         b = 20;
         int c = 25;
@@ -21,6 +24,7 @@ public class BasicOperation {
         System.out.println("c % a = " + (c % a));
 
         //3. 
+        System.out.println("Example 3 : ");
         a = 10;
         int d = 25;
 
@@ -30,9 +34,14 @@ public class BasicOperation {
         // Check the difference in d++ and ++d
         System.out.println("d++   = " + (d++));
         System.out.println("++d   = " + (++d));
+        System.out.println("//--End Arithmetic Ops--//");
+        System.out.println("");
+        System.out.println("");
 
         ///////Relational Ops///////
         //1.
+        System.out.println("//--Relational Ops--//");
+        System.out.println("Example 1 : ");
         a = 10;
         b = 20;
 
@@ -52,8 +61,11 @@ public class BasicOperation {
 
         System.out.println("b >= a = " + (b >= a));
         System.out.println("b <= a = " + (b <= a));
+        System.out.println("//--End Relational Ops--//");
+        System.out.println("");
 
         //////BitWise Ops///////
+        System.out.println("//--Bitwise Ops--//");
         //1.
         a = 60;
         /* 60 = 0011 1100 */
@@ -100,6 +112,8 @@ public class BasicOperation {
         c = a >>> 2;
         /* 15 = 0000 1111 */
         System.out.println("a >>> 2 = " + c);
+        System.out.println("//--End Bitwise Ops--//");
+        System.out.println("");
     }
 
 }
