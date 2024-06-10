@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/3_data_types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4_type_casting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/5_unicode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6_basic_operator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7_comments" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8_user_input" isTestSource="false" />
 
 
 
