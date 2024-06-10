@@ -6,6 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1_basic_syntax" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2_variable_types" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3_data_types" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4_type_casting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5_unicode" isTestSource="false" />
+
+
 
     </content>
     <orderEntry type="inheritedJdk" />
