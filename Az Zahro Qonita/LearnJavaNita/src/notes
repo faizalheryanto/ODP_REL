@@ -1,0 +1,57 @@
+public: mendefinisikan cakupan metode main.
+static: mendefinisikan status dari metode main.
+void: mendefinisikan tipe pengembalian dari metode main.
+main: nama dari metode.
+String[] args: argumen yang diteruskan melalui baris perintah saat menjalankan perintah java.
+
+contoh:
+System.out.println("Hello World"); // prints Hello World
+System.out merepresentasikan konsol utama dan metode println() mengambil "Hello World"
+sebagai input dan mencetaknya ke output konsol.
+
+
+
+Tipe Data:
+1. byte: bilangan bulat komplemen dua bertanda 8-bit.
+    nilai default: 0
+    nilai min: -128 (-2^7)
+    nilai max: 127 (inklusif) (2^7 -1)
+
+2. short: bilangan bulat komplemen dua bertanda 16-bit.
+    nilai default: 0
+    nilai min: -32.768 (-2^15)
+    nilai max: 32.767 (inklusif) (2^15 -1)
+
+3. int: bilangan bulat komplemen dua bertanda 32-bit.
+    nilai default: 0
+    nilai min: - 2.147.483.648 (-2^31)
+    nilai max: 2,147,483,647(inklusif) (2^31 -1)
+
+4. long: bilangan bulat komplemen dua bertanda 64-bit
+    nilai default: 0L
+    nilai min: -9,223,372,036,854,775,808(-2^63)
+    nilai max: 9,223,372,036,854,775,807 (inklusif)(2^63 -1)
+
+5. float: IEEE 754 32-bit floating point
+    nilai default: 0.0f
+
+6. double: umumnya digunakan sebagai tipe data default untuk nilai desimal.
+    nilai default: 0.0d
+
+7. boolean: mewakili satu bit informasi
+    digunakan untuk flag sederhana yang melacak kondisi benar/salah
+    nilai default: salah
+    nilainya: benar dan salah
+
+8. char: Unicode 16-bit tunggal
+    digunakan untuk menyimpan karakter apapun
+    nilai min: '\u0000' (atau 0)
+    nilai max: '\uffff' (atau 65.535 inklusif)
+
+
+hierarki widening type casting (tipe yang kecil dicompiler secara otomatis ke tipe yang lebih besar)
+byte > short > char > int > long > float > double
+
+
+
+
