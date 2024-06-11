@@ -8,7 +8,7 @@
 
       <sourceFolder url="file://$MODULE_DIR$/2_data_types" isTestSource="false" />
 
-      <sourceFolder url="file://$MODULE_DIR$/1_var_types" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3_type_casting" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
