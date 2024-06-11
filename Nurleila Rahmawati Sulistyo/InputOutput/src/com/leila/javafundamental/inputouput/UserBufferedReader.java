@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class UserBufferedReader {
 
     public static void main(String[] args) {
+        //harus menginisialisasi BufferedReader yang dibantu oleh InputStreamReader agar dapat membaca Input dari Keyboard.
         InputStreamReader streamReader = new InputStreamReader(System.in);
         BufferedReader bufferedReader = new BufferedReader(streamReader);
         System.out.println("Program penjumlahan sangat sederhana");
@@ -14,6 +15,7 @@ public class UserBufferedReader {
         int anotherValue = 0;
         try {
             System.out.print("Masukan Angka pertama : ");
+            //untuk menyimpan pada sebuah variabel, data yang diberikan oleh BufferedReader harus di parsing
             value = Integer.parseInt(bufferedReader.readLine());
             System.out.print("Masukan Angka kedua : ");
             anotherValue = Integer.parseInt(bufferedReader.readLine());
