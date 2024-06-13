@@ -109,7 +109,56 @@ public class BasicOperation {
         c = a >>> 2;
         /* 15 = 0000 1111 */
         System.out.println("a >>> 2 = " + c);
-        System.out.println("\n//--End Bitwise Ops--//\n");
+        System.out.println("\n//--End Bitwise Ops--//\n\n");
+
+        System.out.println("//--Logic Ops--//\n");
+
+        System.out.println("//--Example 1--//\n");
+        boolean e = true;
+        boolean f = false;
+
+        System.out.println("e && f = " + (e && f));
+
+        System.out.println("a || b = " + (e || f));
+        System.out.println("!(a && b) = " + !(e && f));
+
+        System.out.println("\n//--End Logic Ops--//\n\n");
+
+        System.out.println("//--Assignment Ops--//\n");
+        a = 10;
+        b = 20;
+        c = 0;
+
+        c = a + b;
+        System.out.println("c = a + b = " + c);
+
+        c += a;
+        System.out.println("c += a  = " + c);
+
+        c -= a;
+        System.out.println("c -= a = " + c);
+
+        c *= a;
+        System.out.println("c *= a = " + c);
+
+        System.out.println("\n//--End Assignment Ops--//\n\n");
+
+        System.out.println("//--Misc Ops--//\n");
+        System.out.println("Example 1 Ternary / Conditional Operator : ");
+        a = 10;
+        b = (a == 1) ? 20 : 30;
+        System.out.println("Value of b is : " + b);
+
+        b = (a == 10) ? 20 : 30;
+        System.out.println("Value of b is : " + b);
+
+        System.out.println("\nExample 2 Instance of Operator: ");
+        String name = "James";
+
+        // following will return true since name is type of String
+        boolean result = name instanceof String;
+        System.out.println(result);
+        System.out.println("\n//--End Misc Ops--//\n\n");
     }
 
 }
