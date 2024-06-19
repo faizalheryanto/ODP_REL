@@ -1,0 +1,11 @@
+Perbedaan extends dan implements
+- extends adalah pewarisan dari class induk. contohnya ada class animal yang memiliki method void,
+  class Dog dapat mewariskan clas Animal dan method animal
+- implements digunakan untuk mengimplementasikan antarmuka dari suatu class. class yang diimplements harus dapat
+  memenuhi syarat dari class yang digunakan
+
+Java Service Loader
+- mekanisme yang disediakan oleh Java untuk mengimplementasikan dan menemukan layanan (service) pada runtime.
+  Ini memungkinkan aplikasi untuk menemukan implementasi dari antarmuka atau kelas abstrak tanpa harus mengetahui
+  secara eksplisit nama kelas atau paket yang mengimplementasikan layanan tersebut.
+
